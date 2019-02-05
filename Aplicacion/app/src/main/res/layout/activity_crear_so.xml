@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".CrearEntrenadorActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Crear SO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        style="@android:style/Widget.EditText"
+        android:layout_width="217dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/alert_default_icon_color"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Nombre"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/txt_version"
+        android:background="@color/alert_default_icon_color"
+
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:inputType="none|textPersonName"
+        android:text="Version"
+        app:layout_constraintEnd_toEndOf="@+id/txt_nombre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_nombre"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombre" />
+
+    <EditText
+        android:id="@+id/txt_peso"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/alert_default_icon_color"
+
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Peso Gigas"
+        app:layout_constraintEnd_toEndOf="@+id/txt_fecha"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_fecha"
+        app:layout_constraintTop_toBottomOf="@+id/txt_fecha" />
+
+    <Button
+        android:id="@+id/boton_cancelar_reg_so"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Cancelar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/boton_registrar_so"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_peso"
+        app:layout_constraintVertical_bias="0.565" />
+
+    <Button
+        android:id="@+id/boton_registrar_so"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="8dp"
+        android:text="Guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_peso"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <EditText
+        android:id="@+id/txt_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/alert_default_icon_color"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="12/12/2012"
+        app:layout_constraintEnd_toEndOf="@+id/txt_version"
+        app:layout_constraintStart_toStartOf="@+id/txt_version"
+        app:layout_constraintTop_toBottomOf="@+id/txt_version" />
+
+    <TextView
+        android:id="@+id/txt_id_so_r"
+        android:layout_width="19dp"
+        android:layout_height="22dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+</android.support.constraint.ConstraintLayout>

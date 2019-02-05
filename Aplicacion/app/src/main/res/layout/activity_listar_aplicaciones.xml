@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_lay_hijos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListarAplicacionesActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_hijos"
+        android:layout_width="368dp"
+        android:layout_height="351dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="76dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/txt_nombre_so_parce"
+        android:layout_width="83dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:id="@+id/txt_version_so_parce"
+        android:layout_width="83dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="23dp"
+        android:layout_toStartOf="@+id/btn_nuevo_app"
+        android:layout_toEndOf="@+id/txt_nombre_so_parce" />
+
+    <Button
+        android:id="@+id/btn_nuevo_app"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="16dp"
+        android:text="Nuevo" />
+</RelativeLayout>
