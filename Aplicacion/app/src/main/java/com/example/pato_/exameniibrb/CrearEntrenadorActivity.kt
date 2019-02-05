@@ -8,7 +8,7 @@ import com.example.andres.examenapp2.BDD.Companion.ip
 import com.github.kittinunf.fuel.httpPost
 import com.github.kittinunf.fuel.httpPut
 import com.github.kittinunf.result.Result
-import kotlinx.android.synthetic.main.activity_crear_so.*
+import kotlinx.android.synthetic.main.activity_crear_Entrenador.*
 
 class CrearEntrenadorActivity : AppCompatActivity() {
 

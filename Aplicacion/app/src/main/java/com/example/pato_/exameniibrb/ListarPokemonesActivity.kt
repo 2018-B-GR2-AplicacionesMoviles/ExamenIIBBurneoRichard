@@ -17,7 +17,7 @@ import com.github.kittinunf.result.Result
 import android.content.Intent
 import com.example.andres.examenapp2.BDD.Companion.aplicaciones
 import com.github.kittinunf.fuel.httpDelete
-import kotlinx.android.synthetic.main.activity_listar_aplicaciones.*
+import kotlinx.android.synthetic.main.activity_listar_pokemones.*
 
 
 class ListarPokemonesActivity : AppCompatActivity() {

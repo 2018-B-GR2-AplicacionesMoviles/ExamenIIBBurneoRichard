@@ -18,7 +18,7 @@ import com.github.kittinunf.fuel.httpPut
 import com.github.kittinunf.result.Result
 import com.google.firebase.ml.vision.FirebaseVision
 import com.google.firebase.ml.vision.common.FirebaseVisionImage
-import kotlinx.android.synthetic.main.activity_crear_applicacion.*
+import kotlinx.android.synthetic.main.activity_crear_Pokemon.*
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*

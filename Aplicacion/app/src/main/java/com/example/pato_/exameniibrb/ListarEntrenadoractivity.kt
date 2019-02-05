@@ -11,7 +11,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.RelativeLayout
 import android.widget.TextView
-import kotlinx.android.synthetic.main.activity_listar_soactivity.*
+import kotlinx.android.synthetic.main.activity_listar_entrenadoractivity.*
 import android.support.v7.widget.PopupMenu
 import android.widget.Button
 import com.github.kittinunf.result.Result
